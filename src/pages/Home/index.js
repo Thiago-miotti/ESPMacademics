@@ -1,8 +1,13 @@
 import './style.css';
+import Cards from '../../components/Card/Cards.js'
 
 function HomePage() {
     return (
-      <h2>Testte</h2>
+      <div className='Cards_Data-display'>
+      <Cards/>
+      <Cards/>
+      <Cards/>
+      </div>
     );
   }
   

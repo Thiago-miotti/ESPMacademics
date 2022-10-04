@@ -1,0 +1,23 @@
+
+.button{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.button button{
+    width: 200px;
+    height: 40px;
+    background-color: #77C67F;
+    color: #ffff;
+    border: none;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: #68a96e;
+}
