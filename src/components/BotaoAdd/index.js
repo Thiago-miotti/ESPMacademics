@@ -1,10 +1,9 @@
 import './style.css';
-import FormularioCadastro from '../FormularioCadastro';
 
 function BotaoAdicionar(props){
     return(
         <div className="button">
-            <button onClick={<FormularioCadastro/>}>{props.title}</button>
+            <button onClick={props.action}>{props.title}</button>
         </div>
     );
 }
